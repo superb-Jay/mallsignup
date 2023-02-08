@@ -1,1 +1,3 @@
-# mallsignup
+## mallsignup
+
+본 프로젝트는 쇼핑몰 회원가입 프로젝트 입니다.
