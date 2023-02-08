@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>회원가입</title>
-    <script src="https://ajax.googleapis.com/ajax/libs.jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
@@ -43,9 +43,9 @@ PW : <input type="password" name="password" id="password"> <br>
             type:'POST',
             success: function (response){
                 if(response =='success'){
-                    alert()
+                    alert('회원가입 성공')
                 }else {
-                    alert()
+                    alert('회원가입 실패')
                 }
 
             }
